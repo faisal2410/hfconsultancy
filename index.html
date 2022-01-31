@@ -1,477 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HF Consultancy</title>
-   
-   <!-- Bootstrap css -->
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
-   <!-- Custom css -->
-    <link rel="stylesheet" href="./CSS/style.css">
-     
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header id="header" class="header">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <nav class="navbar navbar-expand-md navbar-light py-0 ">
-              <div class="container">
-                <a class="navbar-brand" href="#">
-                  <img src="./images/logo.webp" alt="" class="d-inline-block align-text-top w-50 h-50"/>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav d-flex ms-auto">
-                    <li class="nav-item px-3">
-                      <a class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown px-3">
-                      <a class="nav-link active dropdown-toggle fw-bold " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        About</a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li>
-                          <a class="dropdown-item" href="#">Adobe Experience Manager</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Banking Solution</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Mobile App Development</a>
-                        </li>
-                        <li><a class="dropdown-item" href="#">AR-VR Solution</a></li>
-                        <li><a class="dropdown-item" href="#">ERP</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown px-3">
-                      <a class="nav-link active dropdown-toggle fw-bold " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services 
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Fintech</a></li>
-                        <li><a class="dropdown-item" href="#">Healthcare</a></li>
-                        <li><a class="dropdown-item" href="#">Telecom</a></li>
-                        <li><a class="dropdown-item" href="#">Real-Estate</a></li>
-                        <li><a class="dropdown-item" href="#">E-Commerce</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item px-3">
-                      <a class="nav-link active fw-bold " aria-current="page" href="#">FAQ</a>
-                    </li>
-                    <li class="nav-item px-3">
-                      <a class="nav-link active fw-bold " aria-current="page" href="#">Contact Us</a>
-                    </li>
-                  </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar fixed-top navbar-expand-md navbar-dark ">
+                        <div class="container-fluid">
+                            <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+                                <img src="./assets/media/images/hf-logo.png" alt=""
+                                    class="d-inline-block align-text-top img-fluid w-50 h-50 nav-logo">
+                                <span class="nav-text ms-2">HF Consultancy</span>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ms-5" href="#">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ms-5" href="#">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ms-5" href="#">Success</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ms-5 me-4" href="#">FAQ</a>
+                                    </li>
+                                    <li class="nav-item me-5">
+                                        <a class="nav-link btn btn-primary d-inline-block py-1 px-5 fs-3 rounded-pill contact-btn" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-              </div>
-            </nav>
-          </div>
+            </div>
         </div>
-      </div>
-       
-      </header>
-
-      <main>
-        <!-- Banner Section Starts Here -->
-        <section id="banner" class="banner">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-12">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="w-100">
-                        <img src="./images/top.jpg" class="d-block w-100 img-fluid " alt="...">
-                      </div>
-                      <div class="carousel-caption d-md-block banner-info">
-                        <h1 class="fw-bold" style="color: #101425;">Make Your Way to UK with HF Consultancy</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio officiis adipisci dolores cumque aliquam porro molestias quia dolore ea.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio officiis adipisci dolores cumque aliquam porro molestias quia dolore ea.</p>
-                        <button class="btn btn-danger rounded-pill px-5 py-2">Learn More</button>
-                      </div>
+        <div class="container-fluid">
+            <div class="row  ">
+                <div class="col-md-12 px-0">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="bg-img-slide1">
+                                    <div class="carousel-caption  d-md-block caption-adj">
+                                        <div class="row ">
+                                            <div class="col-md-6 offset-md-6 ">
+                                                <div class="">
+                                                    <h2 class="display-2 py-2">Learning aid to lead</h2>
+                                                    <p>Some representative placeholder content.</p>
+                                                    <a href="#" class="btn btn-danger d-inline-block py-3 px-5 fs-3 fw-bold rounded-pill mt-3">Free Consultancy</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="bg-img-slide2">
+                                    <div class="carousel-caption  d-md-block caption-adj ">
+                                        <div class="row ">
+                                            <div class="col-md-6 offset-md-6 ">
+                                                <div class="">
+                                                    <h2 class="display-2 py-2">Learning aid to lead</h2>
+                                                    <p>Some representative placeholder content</p>
+                                                    <a href="#" class="btn btn-danger d-inline-block py-3 px-5 fs-3 fw-bold rounded-pill mt-3">Free Consultancy</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg-img-slide3">
+                                    <div class="carousel-caption  d-md-block caption-adj">
+                                        <div class="row ">
+                                            <div class="col-md-6 offset-md-6 ">
+                                                <div class=" ">
+                                                    <h2 class="display-2 py-2">Learning aid to lead</h2>
+                                                    <p class="">Some representative placeholder content </p>
+                                                    <a href="#" class="btn btn-danger d-inline-block py-3 px-5 fs-3 fw-bold rounded-pill mt-3">Free Consultancy</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <div class="carousel-item">
-                      <div class="w-100">
-                        <img src="./images/top.jpg" class="d-block w-100 img-fluid" alt="...">
-                      </div>
-                      <div class="carousel-caption  d-md-block banner-info">
-                        <h1 class="fw-bold" style="color: #101425;">Make Your Way to UK with HF Consultancy</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio officiis adipisci dolores cumque aliquam porro molestias quia dolore ea.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio officiis adipisci dolores cumque aliquam porro molestias quia dolore ea.</p>
-                        <button class="btn btn-danger rounded-pill px-5 py-2">Learn More</button>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="w-100">
-                        <img src="./images/top.jpg" class="d-block w-100 img-fluid" alt="...">
-                      </div>
-                      <div class="carousel-caption d-md-block banner-info">
-                        <h1 class="fw-bold" style="color: #101425;">Make Your Way to UK with HF Consultancy</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio officiis adipisci dolores cumque aliquam porro molestias quia dolore ea.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio officiis adipisci dolores cumque aliquam porro molestias quia dolore ea.</p>
-                        <button class="btn btn-danger rounded-pill px-5 py-2">Learn More</button>
-                      </div>
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-             
-            </div>
-          </div>
-        </section>
-        <!-- Services Section Start Here -->
-         <section id="services" class="services"> 
-          <div class="container-fluid">
-            <h2 class="section-title pt-5 text-light text-center fs-2 fw-bold">Explore Our Services</h2>
-            <div class="row color d-flex justify-content-center">           
-              <div class="col-md-3 ">
-                <div class="card text-center card-adj py-4" >
-                  <div class="w-100">
-                    <i class="fas fa-book-open" style="font-size: 70px;"></i>
-                  </div>
-                  <div class="card-body">
-                    <h4 class="card-title fw-bold">Education Services</h4>
-                    <h6 class="card-subtitle mb-2 text-danger py-2">QEAC No: JOO9</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus provident dolor eos quaerat error? Voluptatem, vitae! Expedita, animi autem!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 ">
-                <div class="card text-center card-adj py-4" >
-                  <div class="w-100">
-                    <i class="fas fa-globe-asia" style="font-size: 70px;"></i>
-                  </div>
-                  <div class="card-body">
-                    <h4 class="card-title fw-bold">Migration Services</h4>
-                    <h6 class="card-subtitle mb-2 text-danger py-2">MARA: 1807532</h6>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sint laborum rerum perspiciatis facilis a laboriosam expedita suscipit aut placeat?</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 ">
-                <div class="card text-center card-adj py-4" >
-                  <div class="w-100">
-                    <i class="fas fa-calculator" style="font-size: 70px;"></i>
-                  </div>
-                  <div class="card-body">
-                    <h4 class="card-title fw-bold">Taxation Services</h4>
-                    <h6 class="card-subtitle mb-2 text-danger py-2">TAX Sub Agent No: 40283218837</h6>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sint laborum rerum perspiciatis facilis a laboriosam expedita suscipit aut placeat?</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> 
-        <!-- Video Section Start Here -->
-        <section id="video" class="video">
-          <div class="container">
-            <div class="row d-flex justify-content-between" style="margin-top: 180px;">
-              <div class="col-md-6">
-                <iframe  src="https://www.youtube.com/embed/hEovLBSRvyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="w-100" height="315" allowfullscreen></iframe>
-              </div>
-              <div class="col-md-6">
-                <h1 class="fw-bold text-danger mb-5">Who We Are</h1>
-                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quam nihil adipisci id est debitis sint quasi, corporis possimus explicabo magni earum doloribus rerum dignissimos omnis animi reprehenderit consequuntur ad perferendis, nulla fugit. Vero tempora excepturi nesciunt officia laudantium delectus error qui nobis temporibus impedit, iure harum. Nobis, alias laudantium!</p>
-                <button class="btn btn-primary mt-4 py-2 px-4 rounded-pill">Know More About Us</button>
-              </div>              
-            </div>
-          </div>
-        </section>
-        <!-- Card Section Start Here -->
-        <section id="card" class="card">
-          <div class="container-fluid">
-            <div class="row card-bg my-5 d-flex align-items-center">
-              <div class="offset-1 col-md-4">
-                <div class="card" style="border-radius: 2.25rem;border: 3px solid #dc3545;">
-                  <div class="card-body p-4">
-                    <h3 class="card-title text-dark fw-bold mb-4">Why HF Consultancy?</h3>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi deleniti sed consequatur saepe. Reiciendis earum, deleniti autem ullam ducimus repellat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi deleniti sed consequatur saepe. Reiciendis earum, deleniti autem ullam ducimus repellat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi deleniti.</p>
-                    <button class="btn btn-danger px-5 py-2 rounded-pill mt-3">Enquire Now</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Study Abroad Section Start Here -->
-        <section id="study" class="study">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="w-100 ">
-                  <img src="./images/1.webp" class="w-100 img-fluid rounded-circle"  alt="">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="">
-                  <h6 class="fw-bold text-primary">Abroad Study</h6>
-                  <h2 class="fw-bold mb-3">Study In Canada</h2>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum expedita ex possimus hic blanditiis neque, sit id excepturi perferendis ea laborum magni aliquam ducimus officia culpa! Quos eius possimus id ea sapiente qui nihil pariatur adipisci reprehenderit illo fugiat atque odit, autem repudiandae dicta quisquam aspernatur ab nesciunt. Facere?</p>
-                  <button class="btn btn-primary py-2 px-5 rounded-pill my-4">Read More</button>
-                </div>
-               
-              </div>
-            </div>
-            <div class="row mt-5">
-              <div class="col-md-6">
-                <h6 class="fw-bold text-primary">Abroad Study</h6>
-                <h2 class="fw-bold mb-3">Study In UK</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum expedita ex possimus hic blanditiis neque, sit id excepturi perferendis ea laborum magni aliquam ducimus officia culpa! Quos eius possimus id ea sapiente qui nihil pariatur adipisci reprehenderit illo fugiat atque odit, autem repudiandae dicta quisquam aspernatur ab nesciunt. Facere?</p>
-                <button class="btn btn-primary py-2 px-5 rounded-pill my-4">Read More</button>
-              </div>             
-              
-                <div class="col-md-6">
-                  <img src="./images/canada.jpg" class="w-75 img-fluid" style="border-radius: 100%;" alt="">
                 </div>
             </div>
-            <div class="row my-5">
-              <div class="col-md-6">
-                <img src="./images/canada.jpg" class="w-75 img-fluid" style="border-radius: 100%;" alt="">
-              </div>
-              <div class="col-md-6">
-                <h6 class="fw-bold text-primary">Abroad Study</h6>
-                <h2 class="fw-bold mb-3">Study In Australia</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum expedita ex possimus hic blanditiis neque, sit id excepturi perferendis ea laborum magni aliquam ducimus officia culpa! Quos eius possimus id ea sapiente qui nihil pariatur adipisci reprehenderit illo fugiat atque odit, autem repudiandae dicta quisquam aspernatur ab nesciunt. Facere?</p>
-                <button class="btn btn-primary py-2 px-5 rounded-pill my-4">Read More</button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- News Section Start Here -->
-        <section id="news" class="news">
-          <div class="container-fluid">
-            <div class="row color d-flex justify-content-center">
-              <h2 class="section-title pt-5 text-light text-center fs-2 fw-bold">News & Update</h2>
-              <div class="col-md-3  ">
-                <div class="card text-center my-5" >
-                  <div class="w-100">
-                    <img src="./images/27.jpeg" class="img-fluid w-100" alt="">
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold text-primary"><a href="">Accepting Cases from Now Onwards</a></h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 ">
-                <div class="card text-center my-5" >
-                  <div class="w-100">
-                    <img src="./images/27.jpeg" class="img-fluid w-100" alt="">
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold text-primary"><a href="">Immigration for Medical Practitioners: Doctors & Nurses</a></h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 ">
-                <div class="card text-center my-5" >
-                  <div class="w-100">
-                    <img src="./images/27.jpeg" class="img-fluid w-100" alt="">
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold text-primary"><a href="">Immigration Depatments of States and Territories</a></h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Success Stories -->
-        <section id="success" class="success">
-          <div class="container">
-            <div class="row">
-              <h1 class="fw-bold text-center text-dark my-5">Our Successful Steps</h1>
-              <div class="col-md-3">
-                <div class="card text-centerhadow p-3 mb-5 bg-body rounded">
-                  <div class="card-body">
-                    <h1 class="card-title text-center fw-bold">2000+</h1>
-                    <p class="card-text">Some quick example text to build on the card title.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="card text-centerhadow p-3 mb-5 bg-body rounded">
-                  <div class="card-body">
-                    <h1 class="card-title text-center fw-bold">500+</h1>
-                    <p class="card-text">Some quick example text to build on the card title.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="card text-centerhadow p-3 mb-5 bg-body rounded">
-                  <div class="card-body">
-                    <h1 class="card-title text-center fw-bold">50+</h1>
-                    <p class="card-text">Some quick example text to build on the card title.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="card text-centerhadow p-3 mb-5 bg-body rounded">
-                  <div class="card-body">
-                    <h1 class="card-title text-center fw-bold">100%</h1>
-                    <p class="card-text">Some quick example text to build on the card title.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Testimonial Section Start Here -->
-        <section id="testimonial" class="testimonial mt-5">
-          <div class="container">
-            <h1 class="fw-bold text-center text-dark mb-5">Clients Testimonials</h1>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card shadow p-3 mb-5 bg-body rounded text-center d-flex flex-column align-items-center">
-                  <img src="./images/player-1.png" class="card-img-top w-25" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Tim Kimberr</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Student</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button class="btn btn-primary py-2 px-3 mt-1 rounded">Go To Profile </button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card shadow p-3 mb-5 bg-body rounded text-center d-flex flex-column align-items-center">
-                  <img src="./images/player-2.png" class="card-img-top w-25" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">John Wattson</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Student</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button class="btn btn-primary py-2 px-3 mt-1 rounded">Go To Profile </button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card shadow p-3 mb-5 bg-body rounded text-center d-flex flex-column align-items-center">
-                  <img src="./images/player-1.png" class="card-img-top w-25" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Dave Pradis</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Student</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button class="btn btn-primary py-2 px-3 mt-1 rounded">Go To Profile </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Institutes -->
-        <section id="institutes" class="institutes">
-          <div class="container">
-            <h1 class="fw-bold text-center text-dark my-5">Institutes We Represent</h1>
-            <div class="row">
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-1.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-2.png" class="w-100 img-fluid" alt=""></a>
-              </div>              
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-3.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-4.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-5.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-1.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-            </div>
-            <div class="row my-3">
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-1.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-2.png" class="w-100 img-fluid" alt=""></a>
-              </div>              
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-3.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-4.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-5.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-1.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-1.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-2.png" class="w-100 img-fluid" alt=""></a>
-              </div>              
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-3.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-4.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-5.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-              <div class="col-md-2">
-                <a href=""><img src="./images/uni-1.png" class="w-100 img-fluid" alt=""></a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Insurance -->
-        <section id="insurance" class="insurance">
-          <div class="container">
-            <h1 class="fw-bold text-center text-dark my-5">Health Insurance</h1>
-            <div class="row">
-              <div class="col-md-3">
-                <a href=""><img src="./images/uni-4.png" alt=""></a>
-              </div>
-              <div class="col-md-3">
-                <a href=""><img src="./images/uni-5.png" alt=""></a>
-              </div>
-              <div class="col-md-3">
-                <a href=""><img src="./images/uni-1.png" alt=""></a>
-              </div>
-              <div class="col-md-3">
-                <a href=""><img src="./images/uni-3.png" alt=""></a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer id="footer" class="footer text-center">
-        <h6>All Rights Reserved &copy; 2020-2025 <span>by HF Counsultancy</span></h6>
-        <div class="social-media">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-youtube"></i>
-          <i class="fab fa-twitter"></i>
         </div>
-      </footer>
-<!-- Bootstrap js -->
-    <script src="./JS/bootstrap.bundle.min.js"></script> 
-      <!-- Fontawesome js -->
-      <script src="https://kit.fontawesome.com/5b67d684aa.js" crossorigin="anonymous"></script>   
-  
+
+    </header>
+    <main>
+        <section id="services" class="services">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="text-center display-3 text-white mt-5">Explore <span class="text-primary">Our</span>  Services</h2>
+                    <div class="col-md-4">
+                        <div>
+                            <div class="card">
+                                <i class="fas fa-graduation-cap icon"></i>
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h3 class="card-title text-center fs-2 fw-bold">Education Services</h3>
+                                  <p class="card-text text-center text-muted">Some quick example text to build on the card title and make up </p>
+                                  <a href="#" class="btn btn-primary btn-service">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="">
+                            <div class="card ">
+                                <i class="fas fa-graduation-cap icon"></i>
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h3 class="card-title text-center fs-2 fw-bold">Education Services</h3>
+                                  <p class="card-text text-center text-muted">Some quick example text to build on the card title and make up </p>
+                                  <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <div class="card">
+                                <i class="fas fa-graduation-cap icon"></i>
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h3 class="card-title text-center fs-2 fw-bold">Education Services</h3>
+                                  <p class="card-text text-center text-muted">Some quick example text to build on the card title and make up </p>
+                                  <a href="#" class="btn btn-primary text-center">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+
+    </footer>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!-- Fontawesome js -->
+    <script src="https://kit.fontawesome.com/7de0217be2.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

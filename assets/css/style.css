@@ -85,13 +85,14 @@ nav ul li a{
     margin:0 auto;
 }
 .success{
-    background-image:linear-gradient(to right,#035796, #A61D36);
+    /* background-image:linear-gradient(to right,white, rgba(0, 0, 0, 0.26)); */
     margin-top:300px;
    
    
 }
 .success-bg1{
  background-image: url("../media/images/1.webp"), linear-gradient(to right,#035796, #A61D36);
+ 
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -619,6 +620,16 @@ nav ul li a{
 }
 .features-info{
     margin-top:150px;
+}
+.img-adj{
+    height:230px;
+    overflow:hidden;
+    object-fit:cover!important;
+    width:100%;
+    transition:1s;   
+}
+.img-adj:hover{
+    transform:scale(1.1);
 }
 
 @media (max-width:768px) {

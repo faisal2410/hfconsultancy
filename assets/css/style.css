@@ -79,6 +79,9 @@ nav ul li a{
     background-image:linear-gradient(to right,#035796, #A61D36);
     height:600px;  
 }
+.services-page{
+    margin-bottom:200px!important;
+}
 .icon{
     font-size:100px;
     text-align:center;

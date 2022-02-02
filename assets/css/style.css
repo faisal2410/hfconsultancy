@@ -86,6 +86,15 @@ nav ul li a{
 .btn-service{
     margin:0 auto;
 }
+.card{
+    transition:1s;
+    overflow:hidden;
+}
+.card:hover{
+    transform:scale(1.1);
+}
+
+/* Success css */
 .success{   
     margin-top:300px; 
 }
@@ -605,9 +614,15 @@ nav ul li a{
   
 }
 
+/* About CSS */
 .about{
     margin-top:100px;
 }
+.about-info:hover{
+    transform: scale(1.1) skew(-15deg);
+    transition: transform 2s ease-in-out;
+}
+/* Features CSS */
 
 .bg-features{
     background-image: url("../media/images/study-uk.webp"),
@@ -621,7 +636,17 @@ nav ul li a{
 
 }
 .features-info{
-    margin-top:150px;
+    margin-top:100px;
+
+}
+.features-info:hover{
+    transform: scale(1.2) skew(-15deg);
+    transition: transform 2s ease-in-out;
+}
+/* Institutes CSS */
+.single-institute:hover img{
+    transform: scale(1.2) skew(-15deg);
+    transition: transform 2s ease-in-out;
 }
 .img-adj{
     height:230px;
@@ -640,8 +665,13 @@ nav ul li a{
     font-size:30px!important;
    
 }
+/* Footer CSS */
+.fab:hover{
+    transform:scale(2);
+    transition: transform 2s ease-in-out;
 
-
+}
+ 
 @media (max-width:768px) {
     .success{
         margin-top:0!important;
@@ -658,6 +688,9 @@ nav ul li a{
         padding-left:0!important;
     }
     
+   
+    
+
     
 }
 

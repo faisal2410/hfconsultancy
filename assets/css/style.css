@@ -1,3 +1,10 @@
+/* color:#405089; */
+/* #e2000c; */
+/* #002147; */
+/* #e5eaf0 */
+/* #2B628B; */
+/* #002147; */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +20,10 @@ body{
     font-size: 2.2rem;
     background-color: #E4F9F5;
 }
+img {
+	max-width:100%;
+   
+}
 
 /* Header CSS */
 
@@ -21,6 +32,9 @@ body{
     font-size: 3rem;
     background-color: rgba(0, 0, 0, 0.048);
 }
+.nav-text:hover{
+    color:#e2000c;
+}
 nav ul li a{
     text-transform: uppercase;
     font-size: 2.2rem;
@@ -28,12 +42,12 @@ nav ul li a{
     margin-left: 1rem;
 }
 .contact-btn{
-    background-color: #035796;
+    background-color: #002147;
     border:none;
     color:white;
 }
 .nav-link:hover{
-    background-color: #035796;  
+   color:#e2000c!important;
 }
 .btn{
     border:none;
@@ -44,7 +58,7 @@ nav ul li a{
 }
 .bg-img-slide1{
     background-image: url("../media/images/study-uk.webp"),
-    linear-gradient(to right,#e4f9f5, black);
+    linear-gradient(to right,#e4f9f5, rgb(0, 0, 0));
   background-repeat: no-repeat;
   background-size: cover, cover;
   background-position:  0px 0px, 0% 0%;
@@ -76,8 +90,14 @@ nav ul li a{
 }
 /* Services CSS */
 .services{
-    background-image:linear-gradient(to right,#035796, #A61D36);
+    background-image:linear-gradient(to right,#002147, #002147);
     height:600px;  
+}
+.text-service{
+    color:#e2000c;
+}
+.service-title{
+    color:#002147;
 }
 .services-page{
     margin-bottom:200px!important;
@@ -105,7 +125,7 @@ nav ul li a{
     margin-top:50px;
 }
 .success-bg1{
- background-image: url("../media/images/1.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/1.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  
  background-repeat: no-repeat;
  background-size: cover, cover;
@@ -127,7 +147,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg2{
- background-image: url("../media/images/2.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/2.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -147,7 +167,7 @@ nav ul li a{
  width:100%;
 }
 .success-bg3{
- background-image: url("../media/images/3.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/3.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -167,7 +187,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg4{
- background-image: url("../media/images/4.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/4.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -187,7 +207,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg5{
- background-image: url("../media/images/5.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/5.webp"),linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -207,7 +227,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg6{
- background-image: url("../media/images/6.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/6.webp"),linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -227,7 +247,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg7{
- background-image: url("../media/images/7.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/7.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -247,7 +267,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg8{
- background-image: url("../media/images/8.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/8.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -267,7 +287,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg9{
- background-image: url("../media/images/9.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/9.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -287,7 +307,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg10{
- background-image: url("../media/images/10.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/10.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -307,7 +327,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg11{
- background-image: url("../media/images/11.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/11.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -327,7 +347,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg12{
- background-image: url("../media/images/12.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/12.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -347,7 +367,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg13{
- background-image: url("../media/images/13.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/13.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -367,7 +387,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg14{
- background-image: url("../media/images/14.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/14.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -387,7 +407,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg15{
- background-image: url("../media/images/15.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/15.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -407,7 +427,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg16{
- background-image: url("../media/images/16.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/16.webp"),linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -427,7 +447,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg17{
- background-image: url("../media/images/17.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/17.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -447,7 +467,7 @@ nav ul li a{
  -o-transition:1s;
 }
 .success-bg18{
- background-image: url("../media/images/18.webp"), linear-gradient(to right,#035796, #A61D36);
+ background-image: url("../media/images/18.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
@@ -669,6 +689,9 @@ nav ul li a{
    
 }
 /* Footer CSS */
+.bg-footer{
+    background-color:#002147;
+}
 .fab:hover{
     transform:scale(2);
     transition: transform 2s ease-in-out;

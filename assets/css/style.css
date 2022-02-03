@@ -57,7 +57,7 @@ nav ul li a{
     background-color: #333;  
 }
 .bg-img-slide1{
-    background-image: url("../media/images/study-uk.webp"),
+    background-image: url("../media/images/slide1.webp"),
     linear-gradient(to right,#e4f9f5, rgb(0, 0, 0));
   background-repeat: no-repeat;
   background-size: cover, cover;
@@ -66,7 +66,7 @@ nav ul li a{
   height: 500px;
 }
 .bg-img-slide2{
-    background-image: url("../media/images/study-uk.webp"),
+    background-image: url("../media/images/slide2.webp"),
     linear-gradient(to right,white, rgba(0, 0, 0,1));
   background-repeat: no-repeat;
   background-size: cover, cover;
@@ -88,10 +88,40 @@ nav ul li a{
     top:100px;
     text-align:left;
 }
+/* Contact button animation */
+.blink-2 {
+	-webkit-animation: blink-2 0.9s infinite both;
+	        animation: blink-2 0.9s infinite both;
+}
+
+ @-webkit-keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 /* Services CSS */
 .services{
     background-image:linear-gradient(to right,#002147, #002147);
     height:600px;  
+    margin-bottom:400px!important;
 }
 .text-service{
     color:#e2000c;
@@ -116,6 +146,34 @@ nav ul li a{
 .card:hover{
     transform:scale(1.1);
 }
+
+/* Left to right Sliding */
+.slide-right {
+	-webkit-animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ 
+ @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  
 
 /* Success css */
 .success{   

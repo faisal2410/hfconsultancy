@@ -20,6 +20,7 @@ body{
     font-size: 2.2rem;
     background-color: #E4F9F5;
 }
+a{text-decoration:none;}
 img {
 	max-width:100%;
    
@@ -34,6 +35,13 @@ img {
 }
 .nav-text:hover{
     color:#e2000c;
+}
+.whatsapp-icon{
+    color:black;
+    font-size:20px;
+}
+.whatsapp-text{
+
 }
 nav ul li a{
     text-transform: uppercase;
@@ -120,8 +128,7 @@ nav ul li a{
 /* Services CSS */
 .services{
     background-image:linear-gradient(to right,#002147, #002147);
-    height:600px;  
-    margin-bottom:400px!important;
+   
 }
 .text-service{
     color:#e2000c;
@@ -147,57 +154,29 @@ nav ul li a{
     transform:scale(1.1);
 }
 
-/* Left to right Sliding */
-.slide-right {
-	-webkit-animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
- 
- @-webkit-keyframes slide-right {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    100% {
-      -webkit-transform: translateX(100px);
-              transform: translateX(100px);
-    }
-  }
-  @keyframes slide-right {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    100% {
-      -webkit-transform: translateX(100px);
-              transform: translateX(100px);
-    }
-  }
-  
+
 
 /* Success css */
 .success{   
-    margin-top:300px; 
+    margin-top:50px; 
 }
 .success-page{
     margin-top:50px;
 }
 .success-bg1{
  background-image: url("../media/images/1.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
- 
+ height: 230px;
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
  background-blend-mode: multiply;
- height: 230px;
  border:2px solid white;
  border-radius:5px;
  -webkit-border-radius:5px;
  -moz-border-radius:5px;
  -ms-border-radius:5px;
  -o-border-radius:5px;
- width:100%;
- 
+ width:100%; 
  transition:1s;
  -webkit-transition:1s;
  -moz-transition:1s;
@@ -206,11 +185,11 @@ nav ul li a{
 }
 .success-bg2{
  background-image: url("../media/images/2.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
+ height: 230px;
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
- background-blend-mode: multiply;
- height: 230px;
+ background-blend-mode: multiply; 
  border:2px solid white;
  border-radius:5px;
  transition:1s;
@@ -226,11 +205,12 @@ nav ul li a{
 }
 .success-bg3{
  background-image: url("../media/images/3.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
+ height: 230px;
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
  background-blend-mode: multiply;
- height: 230px;
+
  border:2px solid white;
  border-radius:5px;
  -webkit-border-radius:5px;
@@ -246,11 +226,12 @@ nav ul li a{
 }
 .success-bg4{
  background-image: url("../media/images/4.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
+ height: 230px;
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
  background-blend-mode: multiply;
- height: 230px;
+ 
  border:2px solid white;
  border-radius:5px;
  -webkit-border-radius:5px;
@@ -266,11 +247,12 @@ nav ul li a{
 }
 .success-bg5{
  background-image: url("../media/images/5.webp"),linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
+ height: 230px;
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
  background-blend-mode: multiply;
- height: 230px;
+ 
  border:2px solid white;
  border-radius:5px;
  -webkit-border-radius:5px;
@@ -286,11 +268,11 @@ nav ul li a{
 }
 .success-bg6{
  background-image: url("../media/images/6.webp"),linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
+ height: 230px;
  background-repeat: no-repeat;
  background-size: cover, cover;
  background-position:  0px 0px, 0% 0%;
  background-blend-mode: multiply;
- height: 230px;
  border:2px solid white;
  border-radius:5px;
  -webkit-border-radius:5px;
@@ -712,7 +694,7 @@ nav ul li a{
   background-size: cover, cover;
   background-position:  0px 0px, 0% 0%;
   background-blend-mode: multiply;
-  height: 500px;
+  height: 650px;
   width: 100%;
 
 }
@@ -757,13 +739,20 @@ nav ul li a{
 }
  
 @media (max-width:768px) {
+    .whatsapp-icon{
+        display:none!important;
+    }
+    .whatsapp-text{
+        display:none!important;
+    }
+    .phone-no{
+        display:none!important;
+    }
     .success{
         margin-top:0!important;
-        margin-left:0!important;
+        margin-left:0!important;       
     }
-    .services{
-        height:1000px;
-    }
+    
     .service-adj{
         margin-left:0!important;
         padding-left:0!important;
@@ -771,6 +760,7 @@ nav ul li a{
     .success-adj{
         padding-left:0!important;
     }
+   
     
    
     

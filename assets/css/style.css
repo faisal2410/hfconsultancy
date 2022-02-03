@@ -126,7 +126,7 @@ nav ul li a{
   }
   
 /* Services CSS */
-.services{
+.services, .features{
     background-image:linear-gradient(to right,#002147, #002147);
    
 }
@@ -163,6 +163,7 @@ nav ul li a{
 .success-page{
     margin-top:50px;
 }
+
 .success-bg1{
  background-image: url("../media/images/1.webp"), linear-gradient(to right,rgba(0, 238, 32, 0.678), rgba(0, 0, 0, 0.171));
  height: 230px;
@@ -687,25 +688,8 @@ nav ul li a{
 }
 /* Features CSS */
 
-.bg-features{
-    background-image: url("../media/images/study-uk.webp"),
-    linear-gradient(to right,white, rgba(0, 0, 0, 1));
-  background-repeat: no-repeat;
-  background-size: cover, cover;
-  background-position:  0px 0px, 0% 0%;
-  background-blend-mode: multiply;
-  height: 650px;
-  width: 100%;
 
-}
-.features-info{
-    margin-top:100px;
 
-}
-.features-info:hover{
-    transform: scale(1.2) skew(-15deg);
-    transition: transform 2s ease-in-out;
-}
 /* Institutes CSS */
 .single-institute:hover img{
     transform: scale(1.2) skew(-15deg);
@@ -752,6 +736,9 @@ nav ul li a{
         margin-top:0!important;
         margin-left:0!important;       
     }
+    .success-mobile{
+        display:none;
+    }
     
     .service-adj{
         margin-left:0!important;
@@ -759,6 +746,12 @@ nav ul li a{
     }
     .success-adj{
         padding-left:0!important;
+    }
+    .ins-mobile{
+        display:none;
+    }
+    .footer-mobile{
+        display:none;
     }
    
     
